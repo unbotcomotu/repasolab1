@@ -3,8 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>labuwu</title>
+    <style>
+        .centrar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar1{
+            margin-top: 5px;
+            width: 100%;
+        }
+        .navbar2{
+            margin-top: 5px;
+            width: 100%;
+        }
+        .buscar{
+            background: darkgrey;
+        }
+        .colaux{
+            width: 14.285%;
+            text-align: center;
+        }
+    </style>
 </head>
 <body style="width: 100%;display: flex;justify-content: start;align-items: center;background-image: url('../static/fondo.jpg');background-size: cover">
+<div class="row centrar navbar1" style="width: 100%">
+    <div class="col-7 row">
+        <input type="text" class="rounded-pill buscar" placeholder="Encuentra tus vuelos preferidos">
+    </div>
+    <div class="col-3 row">
+        <div class="col-6 text-center">Explorar</div>
+        <div class="col-6 text-center">Mis vuelos</div>
+    </div>
+    <div class="col-2 row border-start border-2 text-center border-dark">
+        <span>Inicia sesión</span>
+    </div>
+</div>
+<div class="row centrar navbar2">
+    <div class="col-6 row">
+        <div class="colaux">Vuelos</div>
+        <div class="colaux">Paquetes</div>
+        <div class="colaux">Hoteles</div>
+        <div class="colaux">Autos</div>
+        <div class="colaux">Seguros</div>
+        <div class="colaux">Upgrade</div>
+        <div class="colaux">Centro de ayuda</div>
+    </div>
+    <div class="col-6 row"></div>
+</div>
 <h1 style="color: white;width: 100%;margin-top: 17%">Iquitos <br> <span style="font-size: 40%;margin-top: 10px">Descubra maravillas ocultas y destinos inspiradores en Iquitos</span>
     <br><button type="button" class="btn btn-light" style="padding: 10px;margin-top: 20px">Comprar</button></h1>
 
